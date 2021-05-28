@@ -1,0 +1,79 @@
+body{
+    margin-top: 125px;
+}
+
+
+
+
+
+#sec1{
+    background: white;
+    color:tomato;
+    align-content: space-between;
+    text-align: center;
+}
+
+
+#sec2{
+    background: #fac424;
+    color: whitesmoke;
+    align-content: space-between;
+    text-align: justify;
+ 
+
+}
+
+#sec3{
+    background: white;
+    color: tomato;
+    align-content: space-between;
+    text-align: right;
+    
+}
+
+#sec4{
+    background:rgb(241, 131, 111);
+    color: whitesmoke;
+    align-content: space-between;
+    text-align: justify;
+}
+
+#sec5 h3 a{
+    margin-right: 10px;
+}
+
+#sec6{
+    border-top: 2px solid tomato;
+    
+    
+    
+}
+#sec6 ul {
+    list-style: none;
+}
+
+#sec6 a{
+    
+    color: black;
+}
+
+#sec7{
+    padding-top: 10px;
+}
+
+#sec7 ul {
+    list-style: none;
+}
+
+#sec7 a{
+    
+    color: black;
+}
+
+footer{
+   
+    
+    color: black;
+    
+}
+
