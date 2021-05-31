@@ -12,58 +12,47 @@
     <title>F4Bank</title>
 </head>
 <body>
-    <header><!--inicio cabeçalho-->
-        <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top" >
-            <div class="container">
-              
-              <a href="#" class="navbar-brand"> <!--imagem logo-->
-                <img src="/molina-landing-page7-0c588b1bce1f1566c06bc38b57658485629d516a/img/cifra.png" width="100">
-              </a>
-              
-
-              <div> <!--nome logo-->
-                <h1>F4<span class="navbar-light">Bank</span></h1>
-              </div>
-
-              <!-- menu de navegação com responsividade -->
-
-
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                <i class="fas fa-bars text-white"></i>
-              </button>
-              <!-- menu de navegação -->
-              <div class="collapse navbar-collapse" id="nav-principal">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">Pagina Inicial</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">Pra você</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">Conta Pj</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">O F4Bank</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">Perguntas</a>
-                  </li>
-                          
-                  <!--botoes no menu navegacao-->
-                  <li class="nav-item">
-                    <a href="index.html" class="btn btn-outline-light ml-4">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="index.html" class="btn btn-outline-light ml-4">Quero Ser F4Bank</a>
-                  </li>
-                </ul>
-              </div><!-- //fim menu de navegação -->
-            </div>
-          </nav>
-
-
-    </header><!--//fim cabeçalho-->
+  <header id="header">
+    <div id="cifra">
+    <a id="logo" href="#"> <!--imagem logo-->
+        <img src="/molina-landing-page7-0c588b1bce1f1566c06bc38b57658485629d516a/img/cifra.png" width="100">
+      </a>
+    <a href=""><h1>F4<span class="branco">Bank</span></h1></a>
+    </div>
+        
+    
+    
+    <nav id="nav"> <!--menu navegacao-->
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li>
+            <a href="index.html" >Pagina Inicial</a>
+          </li>
+          <li>
+            <a href="pf.html" >Pra você</a>
+          </li>
+          <li >
+            <a href="pj.html" >Conta Pj</a>
+          </li>
+          <li >
+            <a href="" >O F4Bank</a>
+          </li>
+          <li >
+            <a href="" >Perguntas</a>
+          </li>
+                  
+          <!--botoes no menu navegacao-->
+          <li >
+            <a><button>Login</button></a>
+          </li>
+          <li >
+             <a><button>Quero Ser F4Bank</button></a>
+          </li>
+        </ul>
+    </nav>
+  </header>
     <section id="sec1"> <!--inicio sessao 1-->
         <div class="container">
             <div class="row">
@@ -188,7 +177,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-none d-md-block"> <!-- imagem sessao 3-->
-                <img src="/molina-landing-page7-0c588b1bce1f1566c06bc38b57658485629d516a/img/homem-americano-negro-sorrindo-segurando-um-telefone-nas-maos-em-um-fundo-laranja_88135-18541.jpg" width="600">
+                <img src="/molina-landing-page7-0c588b1bce1f1566c06bc38b57658485629d516a/img/men-cell.jpg" width="600">
             </div>
         </div>
     </div>
@@ -217,7 +206,7 @@
               <li><a href="index.html" >Cartão de Crédito</a></li>
               <li><a href="index.html" >Rewards</a></li>
               <li><a href="index.html" >Empréstimo</a></li>
-              <li><a href="index.html" >Contas PJ</a></li>
+              <li><a href="pj.html" >Contas PJ</a></li>
              </ul>
            </div>
            <div class="col-md-4">
@@ -302,7 +291,7 @@
                 <a href="https://www.linkedin.com/in/samira-pereira-13b870183/" class="btn btn-outline-dark">Samira Amorim
                     <i class="fab fa-linkedin fa-lg"></i>
                 </a>
-                <a href="linkedin.com/in/joice-silva-15ba611b4" class="btn btn-outline-dark"> Joice Silva
+                <a href="https://www.linkedin.com/in/joice-silva-15ba611b4/" class="btn btn-outline-dark"> Joice Silva
                     <i class="fab fa-linkedin fa-lg"></i>
                 </a>
                 </p>
@@ -315,7 +304,7 @@
       
      </footer> <!-- // fim footer-->
 
-
+     <script src="/molina-landing-page7-0c588b1bce1f1566c06bc38b57658485629d516a/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
