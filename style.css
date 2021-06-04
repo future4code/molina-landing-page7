@@ -1,0 +1,217 @@
+/*--formatacao geral--*/
+
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+#container{
+    border: 2px solid red;
+}
+/*--header logo--*/
+#cifra{
+    display:flex;
+    align-items: center;
+}
+
+#logo h1{
+    color: black;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.branco{
+    color: white;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*--header menu--*/
+
+#header {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: orange;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0px;
+    background: rgb(238, 193, 110);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid white;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+
+
+#menu li a button{
+    color: orange;
+    border: white; 
+    
+}
+
+#menu ul li a:hover{
+    border-bottom: 1px solid #535858 ;
+
+}
+
+}
+/*-- area principal--*/
+
+
+
+#sec1{
+    background: white;
+    color:tomato;
+    align-content: space-between;
+    text-align: center;
+}
+
+
+#sec2{
+    background: #fac424;
+    color: whitesmoke;
+    align-content: space-between;
+    text-align: justify;
+ 
+
+}
+
+#sec3{
+    background: white;
+    color: tomato;
+    align-content: space-between;
+    text-align: right;
+    
+}
+
+#sec4{
+    background:rgb(241, 131, 111);
+    color: whitesmoke;
+    align-content: space-between;
+    text-align: justify;
+}
+
+#sec5 h3 a{
+    margin-right: 10px;
+}
+
+#sec6{
+    border-top: 2px solid tomato;
+    
+    
+    
+}
+#sec6 ul {
+    list-style: none;
+}
+
+#sec6 a{
+    
+    color: black;
+}
+
+#sec7{
+    padding-top: 10px;
+}
+
+#sec7 ul {
+    list-style: none;
+}
+
+#sec7 a{
+    
+    color: black;
+}
+
+footer{
+   
+    
+    color: black;
+    
+}
+
